@@ -16,13 +16,10 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [ ] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
-![](https://i.imgur.com/kfjdPUY.gif)
-
-![](https://i.imgur.com/9dF6Zxz.gif)
+<img src="http://g.recordit.co/7KD29ookQD.gif" width=250><br>
 
 ### Notes (Learned)
 * How to add app icon in home screen and style launce screen.
 * How to display list of movies using a table view.
 * How to create a API Network Request. 
 * How to add Cocoapods to specify the libraries.
-
