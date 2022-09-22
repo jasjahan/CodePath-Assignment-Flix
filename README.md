@@ -11,14 +11,16 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [x] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
 
 #### BONUS
-- [x] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
-       <img src="http://g.recordit.co/85dvbI2FYG.gif" width=250><br>
+- [x] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.      
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthrough GIF
 
 <img src="http://g.recordit.co/bFpNV02yVB.gif" width=250><br>
 
+### Bonus Walkthrough GIF
+ <img src="http://g.recordit.co/85dvbI2FYG.gif" width=250><br>
+ 
 ### Notes(Learned)
 * How to use a Detail View to get more "details" about something in the app.
 * How to use collection views to achieve a grid layout of movie cells.
