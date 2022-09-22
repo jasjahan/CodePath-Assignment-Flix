@@ -1,10 +1,3 @@
-//
-//  MovieCell.swift
-//  Flix
-//
-//  Created by Jasmine Jahan on 9/13/22.
-//
-
 import UIKit
 
 class MovieCell: UITableViewCell {

@@ -5,6 +5,7 @@ import AlamofireImage
 class MovieGridViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
    
     @IBOutlet weak var collectionView: UICollectionView!
+    
     var movies = [[String: Any]]()
     
     override func viewDidLoad() {
@@ -53,6 +54,19 @@ class MovieGridViewController: UIViewController, UICollectionViewDelegate, UICol
         
     
         return cell
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //Find the selected Movie
+        let cell = sender as! UICollectionViewCell
+        let indexPath = collectionView.indexPath(for: cell)!
+        let movie = movies[indexPath.row]
+        //Pass the selected Movie to the details vc
+        let detailsViewController = segue.destination as! PosterDetailsViewController
+        detailsViewController.movie = movie
+        
+//        collectionView.deselectRow(at: indexPath, animated: true)
+        collectionView.deselectItem(at: indexPath, animated:true)
     }
     
 }

@@ -17,7 +17,6 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        self.title = "Movies"
         tableView.dataSource = self
         tableView.delegate = self 
         
